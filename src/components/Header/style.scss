@@ -1,0 +1,38 @@
+@mixin font {
+  font-family: 'Roboto';
+}
+@mixin margins {
+  padding: 24px 24px 24px 24px;
+}
+
+
+.header {
+  @include margins;
+}
+
+.header_title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.search_wrapper {
+  height: 36px;
+}
+.search {
+  @include font;
+  width: 98.2%;
+  padding-left: 36px;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px #AAAAAA;
+  outline: none;
+  color: #AAAAAA;
+}
+.search_icon {
+  position: absolute;
+  padding: 8px 0px 0px 8px;
+  color:#AAAAAA;
+  font-size: 22px !important;
+}
