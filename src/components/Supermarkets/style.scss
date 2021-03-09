@@ -39,7 +39,7 @@
   background-color: #fff;
   filter: drop-shadow(0 0 3px #AAA);
 }
-.label_descriptiption {
+.label_description {
   display: flex;
   height: 49px;
   padding-left: 8px;
@@ -52,6 +52,7 @@
 }
 .supermarket_description{
   font-size: 11px;
+  color: #AAA;
 }
 .continente {
   background-image: url('./continente.png');

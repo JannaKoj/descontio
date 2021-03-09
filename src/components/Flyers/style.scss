@@ -1,0 +1,45 @@
+@mixin supermarket_icons {
+  width: 124px;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-size: 124px;
+  border-bottom: 1px solid #EEE;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.forthwrapper{
+  margin-bottom: 24px;
+}
+
+.flyer_description{
+  font-size: 11px;
+  color: #AAA;
+}
+.folhetocontinente {
+  background-image: url('./folhetocontinente.png');
+  @include  supermarket_icons;
+}
+.folhetopingodoce {
+  background-image: url('./folhetopingodoce.png');
+  @include  supermarket_icons;
+}
+.folhetolidl {
+  background-image: url('./folhetolidl.png');
+  @include  supermarket_icons;
+}
+.folhetoaldi {
+  background-image: url('./folhetoaldi.png');
+  @include  supermarket_icons;
+}
+.folhetointermache {
+  background-image: url('./folhetointermache.png');
+  @include  supermarket_icons;
+}
+.folhetoauchan {
+  background-image: url('./folhetoauchan.png');
+  @include  supermarket_icons;
+}
+.folhetominipreco {
+  background-image: url('./folhetominipreco.png');
+  @include  supermarket_icons;
+}

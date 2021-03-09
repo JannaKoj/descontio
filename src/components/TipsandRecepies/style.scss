@@ -1,0 +1,47 @@
+@mixin tipsstyle{
+  height: 165px;
+  min-width: 93px;
+  width: 93px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8px;
+  margin-right: 12px;
+}
+
+.tipsandrecepieswrapper{
+  margin: 24px 0px 24px 24px;
+  overflow: scroll;
+}
+
+.tips_title{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.tipswrapper{
+  display: flex;
+  margin-right: 24px;
+
+}
+
+.first_tip{
+  background-image: url('./firsttip.png');
+  @include tipsstyle;
+}
+.second_tip{
+  background-image: url('./secondtip.png');
+  @include tipsstyle;
+}
+.third_tip{
+  background-image: url('./third.png');
+  @include tipsstyle;
+}
+.forth_tip{
+  background-image: url('./forth.png');
+  @include tipsstyle;
+}
+.fifth_tip{
+  background-image: url('./fifth.png');
+  @include tipsstyle;
+}
