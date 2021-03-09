@@ -1,0 +1,84 @@
+@mixin supermarket_icons {
+  width: 124px;
+  height: 124px;
+  background-repeat: no-repeat;
+  background-size: 124px;
+  border-bottom: 1px solid #EEE;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.wrappertitle {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 24px 12px 24px;
+  align-items: center;
+}
+.supermarket_title{
+  font-size: 20px;
+  font-weight: bold;
+}
+.seeall_supermarkets{
+  font-size: 14px;
+  color: #56BB83;
+}
+.supermarketswrapper{
+  display: flex;
+  align-items: center;
+  height: 180px;
+  overflow: scroll;
+}
+.supermarket:first-child {
+  margin-left: 24px;
+}
+
+.supermarket {
+  height: 173px;
+  margin-right: 12px;
+  border-radius: 8px;
+  background-color: #fff;
+  filter: drop-shadow(0 0 3px #AAA);
+}
+.label_description {
+  display: flex;
+  height: 49px;
+  padding-left: 8px;
+  flex-direction: column;
+  justify-content: center;
+}
+.supermarket_name{
+  font-size: 12px;
+  font-weight: bold;
+}
+.supermarket_description{
+  font-size: 11px;
+  color: #AAA;
+}
+.continente {
+  background-image: url('./continente.png');
+  @include  supermarket_icons;
+}
+.pingodoce {
+  background-image: url('./pingodoce.png');
+  @include  supermarket_icons;
+}
+.lidl {
+  background-image: url('./lidl.png');
+  @include  supermarket_icons;
+}
+.aldi {
+  background-image: url('./aldi.png');
+  @include  supermarket_icons;
+}
+.intermache {
+  background-image: url('./intermache.png');
+  @include  supermarket_icons;
+}
+.auchan {
+  background-image: url('./auchan.png');
+  @include  supermarket_icons;
+}
+.minipreco {
+  background-image: url('./minipreco.png');
+  @include  supermarket_icons;
+}

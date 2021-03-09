@@ -1,0 +1,103 @@
+@mixin iconsstyles {
+  background-repeat: no-repeat;
+  background-size: 36px;
+  background-position: center;
+}
+
+.categories_wrapper{
+  display: flex;
+  padding-left: 24px;
+  overflow: scroll;
+}
+
+.categories{
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 64px;
+  margin-right: 12px;
+  align-items: center;
+}
+.categories:last-child{
+  padding-right: 24px;
+}
+
+.categories_description{
+  font-size: 12px;
+  width: 100%;
+  text-align: center;
+  padding-top: 8px;
+}
+
+.circle{
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background-color: #FFF;
+  filter: drop-shadow(0 0 2px #EEE);
+}
+.frutas {
+  background-image: url('./frutas.png');
+  @include iconsstyles
+
+}
+.meat {
+  background-image: url('./carne.png');
+  @include iconsstyles
+}
+.fish {
+  background-image: url('./peixe.png');
+  @include iconsstyles
+}
+.diary {
+  background-image: url('./laticinios.png');
+  @include iconsstyles
+}
+.grocery {
+  background-image: url('./mercearia.png');
+  @include iconsstyles
+}
+.homecat {
+  background-image: url('./paraolar.png');
+  @include iconsstyles
+}
+.babycat {
+  background-image: url('./paraobebe.png');
+  @include iconsstyles
+}
+.animals {
+  background-image: url('./animais.png');
+  @include iconsstyles
+}
+.drinks {
+  background-image: url('./bebidas.png');
+  @include iconsstyles
+}
+.teaandcoffee {
+  background-image: url('./chaecafe.png');
+  @include iconsstyles
+}
+.charcuterie {
+  background-image: url('./charcutaria.png');
+  @include iconsstyles
+}
+.beauty {
+  background-image: url('./higieneebeleza.png');
+  @include iconsstyles
+}
+.takeaway {
+  background-image: url('./prontoacomer.png');
+  @include iconsstyles
+}
+.frozen {
+  background-image: url('./congelados.png');
+  @include iconsstyles
+}
+.alcohol {
+  background-image: url('./alcool.png');
+  @include iconsstyles
+}
+.bread {
+  background-image: url('./padaria.png');
+  @include iconsstyles
+}
