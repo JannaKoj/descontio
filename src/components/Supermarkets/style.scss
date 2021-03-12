@@ -54,31 +54,7 @@
   font-size: 11px;
   color: #AAA;
 }
-.continente {
-  background-image: url('./continente.png');
-  @include  supermarket_icons;
-}
-.pingodoce {
-  background-image: url('./pingodoce.png');
-  @include  supermarket_icons;
-}
-.lidl {
-  background-image: url('./lidl.png');
-  @include  supermarket_icons;
-}
-.aldi {
-  background-image: url('./aldi.png');
-  @include  supermarket_icons;
-}
-.intermache {
-  background-image: url('./intermache.png');
-  @include  supermarket_icons;
-}
-.auchan {
-  background-image: url('./auchan.png');
-  @include  supermarket_icons;
-}
-.minipreco {
-  background-image: url('./minipreco.png');
+.supermarketicon {
+
   @include  supermarket_icons;
 }
