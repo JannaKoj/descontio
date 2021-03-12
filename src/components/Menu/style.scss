@@ -19,6 +19,10 @@
   align-items: center;
   height: 60px;
   border-top: 1px solid #EEE;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 .menu_description{
   font-size: 10px;
