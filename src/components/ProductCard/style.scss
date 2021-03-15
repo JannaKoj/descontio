@@ -1,13 +1,76 @@
 .productcardwrapper{
+  display: flex;
   height: 108px;
   border-top: 1px solid #F2F2F2;
   border-bottom: 1px solid #F2F2F2;
   background-color: #FFF;
+  margin-bottom: 8px;
+}
+.productdescription{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
 }
 .producticon {
   height: 108px;
   width: 108px;
-  background-size: 108px 108px;
-  background-image: url('./banana.png');
-  background-repeat: no-repeat;
+  object-fit: contain;
+  padding-left: 16px;
+}
+.untildate{
+  font-size: 11px;
+  color: #56BB83;
+  padding-bottom: 8px;
+}
+.productondiscount{
+  width: 200px;
+  font-size: 14px;
+  color: #181818;
+  padding-bottom: 8px;
+}
+.units{
+  display: flex;
+  font-size: 12px;
+  color: #AAA;
+  padding-bottom: 8px;
+}
+.dot{
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.productprice{
+  display: flex;
+  align-items: center;
+}
+.newproductprice{
+  font-size: 17px;
+  color: #56BB83;
+  font-weight: bold;
+  padding-right: 16px;
+}
+.oldproductprice{
+  font-size: 12px;
+  color: #AAA;
+  text-decoration: line-through;
+}
+.addbutton{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  width: 87px;
+  background-color: #FFF;
+  color: #56BB83;
+  border: none;
+  border-radius: 4px;
+  filter: drop-shadow(0 0 2px #AAA);
+  position: absolute;
+  margin-top: 74px;
+  right: 16px;
+}
+.plusbutton{
+  height: 12px;
+  width: 12px;
+  padding-left: 6px;
 }
