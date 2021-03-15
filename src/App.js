@@ -15,13 +15,10 @@ import data from './database.js';
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Categories />
-      <Banner />
-      <Supermarkets />
-      <TipsandRecepies />
-      <Flyers />
-      <Menu />
+      <CategoryHeader />
+      <CategoryScrollMenu />
+      <FilterButton />
+      <ProductCard />
     </div>
   );
 }

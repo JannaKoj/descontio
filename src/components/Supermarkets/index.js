@@ -12,7 +12,7 @@ class Supermarkets extends React.Component {
         </div>
         <div className='supermarketswrapper'>
         {
-          data.stores.map(item =>{
+          data.stores.map(item => {
             return(
               <div className='supermarket'>
                 <img src={item.icon} className='supermarketicon'/>

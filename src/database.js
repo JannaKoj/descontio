@@ -46,4 +46,14 @@ export default ({
     {id:'intermache', name:'Intermaché', flyerFirstImage:'./folhetointermache.png', flyersNumber:1},
     {id:'minipreco', name:'Mini Preço', flyerFirstImage:'./folhetominipreco.png', flyersNumber:1},
   ],
+  products: [
+    {id:'banana', category:'fruitandvegetables', name:'Banana', untilDate:'31 de Abril', productUnits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'0.89', icon:'./banana.png'},
+    {id:'petitgateau', category:'frozen', name:'Petit Gateau Chocolate Negro Pingo Doce 320 gr', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'1.89', icon:'./petitgateau.png'},
+    {id:'brocolos', category:'fruitandvegetables', name:'Brocolos', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'2.49', icon:'./brocolos.png'},
+    {id:'limao', category:'fruitandvegetables', name:'Limão', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'1.39', icon:'./limao.png'},
+    {id:'peitodefrango', category:'meat', name:'Peito de Frango', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'0.49', icon:'./peitodefrango.png'},
+    {id:'salmao', category:'fish', name:'Salmão', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'5.89', icon:'./salmao.png'},
+    {id:'vodka', category:'alcohol', name:'Vodka Smirnoff', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'0.11', icon:'./vodkasmirnoff.png'},
+    {id:'alimentosecoultima7kg', category:'animals', name:'Alimento Seco Royal Canin 5kg Sabor Borrego', untilDate:'31 de Abril', productunits:'1 kg', pricePerUnit:'0.89', oldProductPrice:'1', newProductPrice:'0.75', icon:'./alimentosecocao.png'},
+  ],
 })
