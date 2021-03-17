@@ -12,14 +12,16 @@
     align-items: center;
 }
 
+
 .menu {
-  background-color: #FFF;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 60px;
+  min-height: 60px;
+  background-color: #FFF;
   border-top: 1px solid #EEE;
   position: fixed;
+
   left: 0;
   bottom: 0;
   width: 100%;
