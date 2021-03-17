@@ -15,7 +15,7 @@ class Flyers extends React.Component {
           {data.flyers.map(item => {
             return(
               <div className='supermarket'>
-              <img src={item.flyerFirstImage} className='folhetocontinente'/>
+              <img src={item.flyerFirstImage} className='folheto'/>
               <div className='label_description'>
                 <div className='supermarket_name'>{item.name}</div>
                 <div className='flyer_description'>{item.flyersNumber} folheto</div>

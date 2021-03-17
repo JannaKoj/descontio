@@ -1,6 +1,6 @@
-.categoryheader{
+.marketheader{
   height: 83px;
-  background-color: #56BB83;
+  background-color: #E2202B;
   display: flex;
   align-items: center;
   position: fixed;
@@ -14,13 +14,6 @@
   background-image: url('./Back.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 16px;
-  margin-top: 36px;
-}
-.categoryName{
-  font-size: 18px;
-  font-weight: bold;
-  color: #FFF;
   margin-left: 16px;
   margin-top: 36px;
 }
