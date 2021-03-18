@@ -1,11 +1,19 @@
 .marketheader{
   height: 83px;
-  background-color: #E2202B;
   display: flex;
   align-items: center;
   position: fixed;
   width: 100%;
-  z-index: 1000;
+  z-index: 100;
+}
+.storeicon{
+  width: 64px;
+  height: 64px;
+  border-radius: 100px;
+  position: absolute;
+  top:50px;
+  left: 290px;
+  filter: drop-shadow(0 0 1px #AAA);
 }
 
 .backarrow{
@@ -16,4 +24,27 @@
   background-size: cover;
   margin-left: 16px;
   margin-top: 36px;
+}
+.marketheader#pingodoce{
+  background-color: #68932F;
+}
+
+.marketheader#continente{
+  background-color: #E2202B;
+}
+.marketheader#lidl{
+  background-color: #06507F;
+}
+
+.marketheader#minipreco{
+  background-color: #EC1D24;
+}
+.marketheader#aldi{
+  background-color: #00ABD8;
+}
+.marketheader#intermache{
+  background-color: #EA1C29;
+}
+.marketheader#auchan{
+  background-color: #E0001A;
 }

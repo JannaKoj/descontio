@@ -7,12 +7,14 @@ import FilterButton from "../../components/FilterButton";
 
 class StorePage extends React.Component{
   render(){
+    console.log(this.props);
+    const storeId = this.props.match.params.storeId;
     return(
       <div className="store-page">
-        <SupermarketHeader/>
-        <StoreListHeader />
+        <SupermarketHeader storeId={storeId}/>
+        <StoreListHeader storeId={storeId}/>
         <FilterButton />
-        <ProductCard />
+        <ProductCard storeId={storeId}/>
       </div>
     )
   }

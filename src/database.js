@@ -22,13 +22,13 @@ export default ({
   ],
 
   stores: [
-    {id:'continente', name:'Continente', icon:'./assets/supermarkets/continente.png', discountsNumber: 500},
-    {id:'pingodoce', name:'Pingo Doce', icon:'./assets/supermarkets/pingodoce.png', discountsNumber:500},
-    {id:'lidl', name:'Lidl', icon:'./assets/supermarkets/lidl.png', discountsNumber:500},
-    {id:'auchan', name:'Auchan', icon:'./assets/supermarkets/auchan.png', discountsNumber:500},
-    {id:'aldi', name:'Aldi', icon:'./assets/supermarkets/aldi.png', discountsNumber:500},
-    {id:'intermache', name:'Intermaché', icon:'./assets/supermarkets/intermache.png', discountsNumber:500},
-    {id:'minipreco', name:'Mini Preço', icon:'./assets/supermarkets/minipreco.png', discountsNumber:500},
+    {id:'continente', name:'Continente', icon:'/assets/supermarkets/continente.png', discountsNumber: 500, discountsUpdate: "3ª"},
+    {id:'pingodoce', name:'Pingo Doce', icon:'/assets/supermarkets/pingodoce.png', discountsNumber:520, discountsUpdate: "3ª"},
+    {id:'lidl', name:'Lidl', icon:'/assets/supermarkets/lidl.png', discountsNumber:2020, discountsUpdate: "2ª"},
+    {id:'auchan', name:'Auchan', icon:'/assets/supermarkets/auchan.png', discountsNumber:390, discountsUpdate: "4ª"},
+    {id:'aldi', name:'Aldi', icon:'/assets/supermarkets/aldi.png', discountsNumber:130, discountsUpdate: "2ª"},
+    {id:'intermache', name:'Intermaché', icon:'/assets/supermarkets/intermache.png', discountsNumber:230, discountsUpdate: "6ª"},
+    {id:'minipreco', name:'Mini Preço', icon:'/assets/supermarkets/minipreco.png', discountsNumber:180, discountsUpdate: "5ª"},
   ],
   stories: [
     {id:'firsttip', name:'Guia de Ervas Aromaticas', firstImage:'./assets/tipsandrecepies/firsttip.png'},
