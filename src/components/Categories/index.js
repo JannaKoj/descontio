@@ -8,13 +8,13 @@ class Categories extends React.Component {
     return(
       <div className="categories_wrapper">
         {
-          data.categories.map(item => {
+          data.categories.map(category => {
             return(
-              <Link to={"/categories/"+item.id} className="categories" key={item.id}>
+              <Link to={"/categories/"+category.id} className="categories" key={category.id}>
                 <div className="categories_image">
-                  <div className="circle iconcategory" style={{backgroundImage: "url("+ item.icon +")"}}></div>
+                  <div className="circle iconcategory" style={{backgroundImage: "url("+ category.icon +")"}}></div>
                 </div>
-                <div className="categories_description">{item.name}</div>
+                <div className="categories_description">{category.name}</div>
               </Link>
             )
       })

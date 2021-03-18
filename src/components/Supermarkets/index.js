@@ -13,13 +13,13 @@ class Supermarkets extends React.Component {
         </div>
         <div className="supermarketswrapper">
         {
-          data.stores.map(item => {
+          data.stores.map(store => {
             return(
-              <Link to="/supermarkets" className="supermarket">
-                <img src={item.icon} className="supermarketicon"/>
+              <Link to={"/supermarkets/"+store.id} className="supermarket" key={store.id}>
+                <img src={store.icon} className="supermarketicon"/>
                 <div className="label_description">
-                  <div className="supermarket_name">{item.name}</div>
-                  <div className="supermarket_description">{item.discountsNumber} descontos</div>
+                  <div className="supermarket_name">{store.name}</div>
+                  <div className="supermarket_description">{store.discountsNumber} descontos</div>
                 </div>
               </Link>
             )

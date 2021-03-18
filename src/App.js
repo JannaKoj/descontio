@@ -8,10 +8,10 @@ import Flyers from './components/Flyers/index.js';
 import Menu from './components/Menu/index.js';
 import data from './database.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import HomeScreen from './router/HomeScreen';
-import CategoryPage from './router/CategoryPage';
-import StorePage from './router/StorePage';
-import SearchPage from './router/SearchPage';
+import HomeScreen from './routers/HomeScreen';
+import CategoryPage from './routers/CategoryPage';
+import StorePage from './routers/StorePage';
+import SearchPage from './routers/SearchPage';
 
 function App() {
   return(

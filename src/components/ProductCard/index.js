@@ -29,7 +29,7 @@ class ProductCard extends React.Component {
                   </div>
               </div>
               <div className="supermarketroundicon"></div>
-              <button className="addbutton">Adicionar<img src="./addgreen.png" className="plusbutton"/></button>
+              <button className="addbutton">Adicionar<img src="/assets/icons/addgreen.png" className="plusbutton"/></button>
             </div>
           )
       })
