@@ -8,9 +8,10 @@ import Flyers from './components/Flyers/index.js';
 import Menu from './components/Menu/index.js';
 import data from './database.js';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import HomeScreen from './components/HomeScreen';
-import CategoryPage from './components/CategoryPage';
-import StorePage from './components/StorePage';
+import HomeScreen from './router/HomeScreen';
+import CategoryPage from './router/CategoryPage';
+import StorePage from './router/StorePage';
+import SearchPage from './router/SearchPage';
 
 function App() {
   return(
@@ -18,8 +19,9 @@ function App() {
         <div className="App">
             <Switch>
               <Route path='/' exact component={HomeScreen} />
-              <Route path='/Categories' exact component={CategoryPage}/>
-              <Route path='/Supermarkets' exact component={StorePage} />
+              <Route path='/categories/:categoryId' exact component={CategoryPage}/>
+              <Route path='/supermarkets/:storeId' exact component={StorePage} />
+              <Route path='/search' exact component={SearchPage} />
             </Switch>
 
         </div>

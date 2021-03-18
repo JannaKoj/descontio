@@ -1,6 +1,7 @@
-import React from 'react';
-import './style.scss';
-import data from '../../database.js';
+import React from "react";
+import "./style.scss";
+import data from "../../database.js";
+import {Link} from "react-router-dom";
 
 class Categories extends React.Component {
   render(){
@@ -9,12 +10,12 @@ class Categories extends React.Component {
         {
           data.categories.map(item => {
             return(
-              <div className='categories'>
-                <div className='categories_image'>
-                  <div className='circle iconcategory' style={{backgroundImage: 'url('+ item.icon +')'}}></div>
+              <Link to={"/categories/"+item.id} className="categories" key={item.id}>
+                <div className="categories_image">
+                  <div className="circle iconcategory" style={{backgroundImage: "url("+ item.icon +")"}}></div>
                 </div>
-                <div className='categories_description'>{item.name}</div>
-              </div>
+                <div className="categories_description">{item.name}</div>
+              </Link>
             )
       })
     }
